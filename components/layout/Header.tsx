@@ -37,6 +37,7 @@ const Header: React.FC = () => {
             <div className="flex space-x-4">
                 <Link href="/signin" className="px-4 py-2 rounded-lg border border-blue-500 text-blue-500 hover:bg-blue-50">Sign In</Link>
                 <Link href="/signup" className="px-4 py-2 rounded-lg bg-blue-500 text-white hover:bg-blue-600">Sign Up</Link>
+                <Link href="/booking" className="px-4 py-2 rounded-lg bg-fuchsia-500 text-white hover:bg-lime-400">Bookings</Link>
             </div>
         </header>
     )
